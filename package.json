@@ -1,0 +1,24 @@
+{
+  "name": "node-mongoose-mocha-demo",
+  "description": "",
+  "author": "Josh Minnich <https://github.com/joshmosh>",
+  "private": true,
+  "version": "0.0.1",
+
+  "dependencies": {
+    "should": "1.1.x",
+    "mongoose": "3.0.x"
+  },
+
+  "devDependencies": {
+    "mocha": "1.3.x"
+  },
+
+  "scripts": {
+    "test": "mocha"
+  },
+
+  "engines": {
+    "node": "v0.8.x"
+  }
+}
