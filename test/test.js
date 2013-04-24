@@ -22,7 +22,7 @@ describe('Users', function(){
    * beforeEach Method
    *
    * The before each method will execute every time Mocha is run. This
-   * code will not run every time an individual test is run.
+   * code will run every time an individual test is run.
    */
 
   beforeEach(function(done){
@@ -35,8 +35,8 @@ describe('Users', function(){
   /*
    * afterEach Method
    *
-   * Just like the beforeEach, afterEach is run after Mocha has completed
-   * running it's queue.
+   * Just like the beforeEach, afterEach is run every time 
+   * an individual test is completed.
    */
 
   afterEach(function(done){
